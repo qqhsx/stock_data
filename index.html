@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My stocks</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+        <style>table {width: 100%;}</style>
+    </head>
+    <body>
+        <table border="1" class="dataframe" id="my_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Date</th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Adj Close</th>
+      <th>Volume</th>
+      <th>Stock</th>
+      <th>Company Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2024-01-05</td>
+      <td>16.91</td>
+      <td>17.000000</td>
+      <td>16.379999</td>
+      <td>16.490000</td>
+      <td>16.490000</td>
+      <td>14989769</td>
+      <td>600588.SS</td>
+      <td>Yonyou Network Technology Co.,Ltd.</td>
+    </tr>
+    <tr>
+      <td>2024-01-05</td>
+      <td>10.45</td>
+      <td>10.490000</td>
+      <td>10.120000</td>
+      <td>10.150000</td>
+      <td>10.150000</td>
+      <td>3939771</td>
+      <td>603718.SS</td>
+      <td>Shanghai Hile Bio-Technology Co., Ltd.</td>
+    </tr>
+    <tr>
+      <td>2024-01-05</td>
+      <td>18.92</td>
+      <td>20.809999</td>
+      <td>18.799999</td>
+      <td>20.809999</td>
+      <td>20.809999</td>
+      <td>5767820</td>
+      <td>603709.SS</td>
+      <td>ZOY Home Furnishing Co.,Ltd</td>
+    </tr>
+  </tbody>
+</table>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+        <script>$(document).ready( function () { $('#my_table').DataTable(); } );</script>
+    </body>
+</html>
